@@ -1,0 +1,41 @@
+[
+    {
+        "obd_code_id": 1,
+        "language_code": "en",
+        "title": "Fuel Volume Regulator Control Circuit/Open",
+        "description": "The fuel volume regulator control circuit is open or disconnected.",
+        "symptoms": "Engine warning light, performance issues.",
+        "causes": "Disconnected wiring or faulty fuel regulator.",
+        "solutions": "Inspect and reconnect wiring, replace regulator.",
+        "severity": "Medium",
+        "diagnosis": "Use diagnostic tools to verify circuit continuity.",
+        "category": "Fuel System",
+        "source_url": "https://example.com/p0001"
+    },
+    {
+        "obd_code_id": 2,
+        "language_code": "en",
+        "title": "Fuel Volume Regulator Control Circuit Range/Performance",
+        "description": "There is a range/performance issue with the fuel volume control.",
+        "symptoms": "Reduced engine power, poor fuel economy.",
+        "causes": "Faulty regulator or dirty fuel system.",
+        "solutions": "Clean fuel system, replace defective parts.",
+        "severity": "High",
+        "diagnosis": "Check sensor readings and fuel pressure.",
+        "category": "Fuel System",
+        "source_url": "https://example.com/p0002"
+    },
+    {
+        "obd_code_id": 3,
+        "language_code": "en",
+        "title": "Fuel Volume Regulator Control Circuit Low",
+        "description": "Low signal detected in the fuel volume regulator control circuit.",
+        "symptoms": "Engine stalling or hesitation.",
+        "causes": "Short circuit or damaged wiring.",
+        "solutions": "Repair or replace wiring and connectors.",
+        "severity": "Low",
+        "diagnosis": "Inspect electrical wiring and connections.",
+        "category": "Fuel System",
+        "source_url": "https://example.com/p0003"
+    }
+]
