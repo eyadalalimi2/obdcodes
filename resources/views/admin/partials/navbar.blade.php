@@ -1,24 +1,40 @@
-<nav class="main-header navbar navbar-expand navbar-dark" style="background: linear-gradient(135deg, #1d2b64, #f8cdda); direction: rtl;">
-    <div class="container-fluid d-flex justify-content-between align-items-center">
-        <div>
-            <button class="navbar-toggler" type="button" data-widget="pushmenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-        <div class="d-flex align-items-center">
-            <a href="{{ route('admin.settings.index') }}" class="nav-link text-white">
-                <i class="fas fa-cogs"></i> الإعدادات
-            </a>
-            <a href="#" class="nav-link text-white mx-3">
-                <i class="fas fa-language"></i> اللغة
-            </a>
-            <form action="{{ route('admin.logout') }}" method="POST" class="d-inline">
-                @csrf
-                <button type="submit" class="btn btn-danger btn-sm">
-                    <i class="fas fa-sign-out-alt"></i> تسجيل الخروج
-                </button>
-            </form>
-        </div>
-    </div>
-</nav>
+<nav class="navbar navbar-expand-custom navbar-mainbg">
+    <a class="navbar-brand navbar-logo" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            //<div class="hori-selector">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Address Book</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Components</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Calendar</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white mx-3">
+                    <i class="fas fa-language"></i> اللغة
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{{ route('admin.settings.index') }}" class="nav-link text-white">
+                    <i class="fas fa-cogs"></i> الإعدادات
+                </a>
+            </li>
 
+        </ul>
+        
+    </div>
+
+</nav>
